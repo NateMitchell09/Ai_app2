@@ -8,10 +8,13 @@ app.secret_key = 'your_secret_key'
 
 
 # Database connection
-def get_db_connection():
+def init_db():
     conn = sqlite3.connect('database.db')
-    conn.row_factory = sqlite3.Row
-    return conn
+    cursor = conn.cursor()
+    cursor.execute(
+        '''CREATE TABLE IF NOT EXISTS users ( id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT NOT NULL UNIQUE, password TEXT NOT NULL )''')
+    conn.commit()
+    conn.close()
 
 
 #  creating route for home loging register and logout
@@ -40,7 +43,6 @@ def login():
     return render_template('login.html')
 
 
-
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
@@ -64,4 +66,3 @@ def logout():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
