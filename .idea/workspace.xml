@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6194f8d5-90be-4e52-ba52-2f56ecb8471d" name="Changes" comment="13/09/24">
+      <change afterPath="$PROJECT_DIR$/Aiapp/chatbot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aiapp/ai_flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aiapp/ai_flask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aiapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aiapp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aiapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aiapp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aiapp/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aiapp/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aiapp/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aiapp/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -50,6 +55,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.base.html.executor&quot;: &quot;Run&quot;,
     &quot;Python.ai_flask.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -93,7 +99,13 @@
       <workItem from="1727745456090" duration="5000" />
       <workItem from="1727745468365" duration="1229000" />
       <workItem from="1727840058385" duration="1454000" />
-      <workItem from="1728004213006" duration="2625000" />
+      <workItem from="1728004213006" duration="2722000" />
+      <workItem from="1728342306295" duration="5488000" />
+      <workItem from="1728448049962" duration="160000" />
+      <workItem from="1728448460963" duration="1250000" />
+      <workItem from="1728613141984" duration="596000" />
+      <workItem from="1728959368647" duration="672000" />
+      <workItem from="1729213564505" duration="2036000" />
     </task>
     <task id="LOCAL-00001" summary="13/09/24">
       <option name="closed" value="true" />
@@ -119,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727750533854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="13/09/24">
+      <option name="closed" value="true" />
+      <created>1728006941752</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728006941752</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +150,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="13/09/24" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Ai_app$ai_flask.coverage" NAME="ai_flask Coverage Results" MODIFIED="1728006126874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aiapp" />
+    <SUITE FILE_PATH="coverage/Ai_app$ai_flask.coverage" NAME="ai_flask Coverage Results" MODIFIED="1728448695646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aiapp" />
   </component>
 </project>
